@@ -1,3 +1,16 @@
+@media (max-width: 600px) {
+    body {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    body {
+      font-size: 1.3rem;
+    }
+  }
+  
+
 .join{
     color:white;
     font-family:Roboto;
@@ -63,4 +76,195 @@
     align-items: end;
     
 
+}
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 200vh;
+    z-index: -9999;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the RGBA values for desired darkness */
+    pointer-events: none; /* Ensures it doesn't interfere with other interactions */
+  }
+          body{
+              background-size: cover;
+              background-position: center;
+              /* filter: brightness(50%); */
+          }
+          button{
+              display: inline-block;
+              border-radius:50px ;
+  
+          }
+          .six{
+              background-color: red;
+              border-radius: 25px;
+              padding:1%;
+              font-size: 17px;
+              color:white;
+              font-weight: bold;
+          }
+          .six:hover{
+              background-color:rgb(121, 9, 9);
+          }
+          .two{
+              color:white;
+              font-size: 50px;
+              text-align: center;
+              font-family: Roboto;
+              font-weight: bold;
+              padding-top: 160px;
+          }
+          .three{
+              color:white;
+              font-size: 20px;
+              text-align: center;
+              font-family: Roboto;
+              font-weight: bold;
+          }
+          .four{
+              color:white;
+              font-size: 15px;
+              text-align: center;
+              font-family: Roboto;
+              font-weight: bold; 
+          }
+          #email{
+              align-items: center;
+              color:black;
+          }
+          h1{
+              color: white;
+              font-size: 25px;
+              text-align: left;
+              font-family: Roboto;
+              font-weight: bold;
+             
+          }
+  .header{
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+  }
+  #email{
+    height:50px;
+    width:700px;
+    margin-left: 200px;
+    background-color: black;
+    font-weight: bold;
+  }
+  #email:hover{
+    background-color: black;
+  }
+  .btn{
+    height:50px;
+    width:300px;
+    align-items: right;
+    color:white;
+    font-weight: bold;
+    background-color: red;
+    
+    
+    
+  }
+ .btn:hover{
+    background-color:rgb(121, 9, 9);
+    
+}
+#english{
+    align-items: right;
+}
+.eight{
+    color:white;
+    text-align: center;
+}
+.nine{
+    height:50px;
+    width:300px;
+    align-items: right;
+    color:white;
+    font-weight: bold;
+    background-color: red;
+    
+}
+.nine:hover{
+    background-color:rgb(121, 9, 9);
+}
+#emaill{
+    height:50px;
+    width:700px;
+    margin-left: 200px;
+    background-color: black;
+    font-weight: bold;
+}
+#emaill:hover{
+    background-color: black;
+}
+.ten{
+    color:darkgrey;
+}
+.footer {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.contact {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.contact a {
+    color: #757575;
+    text-decoration: underline;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #757575;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.language-selector {
+    margin-bottom: 20px;
+}
+
+.language-selector select {
+    background: transparent;
+    color: #757575;
+    border: 1px solid #757575;
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.netflix-india {
+    font-size: 14px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #757575;
+    margin: 0;
+    padding: 0;
 }
