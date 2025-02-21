@@ -66,6 +66,7 @@
     text-align: start;
     padding: 20px;
     margin: 20px;
+    color: white;
 }
 .image2{
     height: 70px;
@@ -84,7 +85,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 200vh;
+    height: 300vh;
     z-index: -9999;
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the RGBA values for desired darkness */
     pointer-events: none; /* Ensures it doesn't interfere with other interactions */
@@ -173,9 +174,6 @@ body::before {
  .btn:hover{
     background-color:rgb(121, 9, 9);
     
-}
-#english{
-    align-items: right;
 }
 .eight{
     color:white;
@@ -268,3 +266,50 @@ body {
     margin: 0;
     padding: 0;
 }
+.container {
+    width: 80%; /* This makes the content narrower */
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #101010;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100vw; /* Expands to full viewport width */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.button-container{
+    background-color: black;;
+}
+.seven{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+    scrollbar-width: none;
+    
+}
+
+.movie{
+    min-width: 250px;
+    height: 320px;
+    background-color: gray;
+    border-radius: 10px;
+}
+.movie:hover{
+    transform: scale(1.1);
+}
+#co{
+ color: white;
+}
+#co:hover{
+    background-color: #454242;
+}
+.fa-solid fa-download{
+    width: 20px;
+    height: 20px;
+}
+
